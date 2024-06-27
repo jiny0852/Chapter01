@@ -1,7 +1,7 @@
 package com.javaex.ex03;
 import java.util.Scanner;
 
-public class Sd {
+public class Japangi {
 	
 	public static void main(String[] args) {
 		
