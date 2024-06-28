@@ -22,17 +22,21 @@ public class Countstar {
 			System.out.println();
 		}
 		
+		
 		//아래 삼각형
-		for (int i = 0; i < n-1 ; i++) {
-			for(int j = 0; j < i + 1 ; j++) {
+		for ( int i = 0 ; i < n-1 ; i++ ) {
+			
+			for( int j = 0 ; j < i + 1 ; j++ ) {
 				System.out.print(" ");
 			}
-			for (int k = maxWidth -2; k > 2*i; k--) {
+			
+			for ( int k = maxWidth -2 ; k > 2*i ; k-- ) {
 				System.out.print("*");
 			}
+			
 			System.out.println();
 		}
-				
+			
 		sc.close();
 
 	}
