@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Chapter01 {
+module Practice01 {
 }
